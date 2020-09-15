@@ -18,7 +18,7 @@ scrape({
   fields: {
     // Required fields with example values
     'advertiser-id': 123,
-    sku: () => window.dataLayer.filter(entry => entry.sku).pop().sku,
+    sku: () => window.dataLayer.filter((entry) => entry.sku).pop().sku,
 
     // Optional, arbitrary fields with example values
     url: getUrl,

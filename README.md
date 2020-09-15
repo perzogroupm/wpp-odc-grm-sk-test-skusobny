@@ -1,8 +1,10 @@
-# LemonPI client scripts
+# ODC client scripts
 
-> Houses all untranspiled LemonPI (Manage-R) clients' product scrapers and dynamic soft landing scripts.
+> Houses all untranspiled ODC (Manage-R) clients' product scrapers and dynamic soft landing scripts.
 
 ## Install
+
+Once you have cloned this repository, make sure to install npm packages in the directory where you have cloned to.
 
 ```shell
 npm install
@@ -31,11 +33,11 @@ document.head.appendChild(script);
 
 ## Deploy
 
-Copy the build script contents from the file opened in the browser or the `dist` folder, then paste it to LemonPI.
+Copy the build script contents from the file opened in the browser or the `dist` folder, then paste it to ODC product store.
 
 ## Helpers
 
 More on how to use helper libraries:
 
-- [LemonPI Scraper Helper](https://www.npmjs.com/package/lemonpi-scraper-helper)
-- [LemonPI Soft Landing Helper](https://www.npmjs.com/package/lemonpi-soft-landing-helper)
+- [ODC Scraper Helper](https://www.npmjs.com/package/lemonpi-scraper-helper)
+- [ODC Soft Landing Helper](https://www.npmjs.com/package/lemonpi-soft-landing-helper)

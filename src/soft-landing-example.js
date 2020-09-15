@@ -14,10 +14,10 @@ create({
 
   // Content fields as defined in ODC Manage
   content: {
-    example1: value => {
+    example1: (value) => {
       document.querySelector('#example1').textContent = value;
     },
-    example2: value => {
+    example2: (value) => {
       document.querySelector('#example2').textContent = value;
     },
   },

@@ -45,7 +45,8 @@
     "rollup-plugin-uglify": "^6.0.4"
   },
   "dependencies": {
-    "lemonpi-scraper-helper": "latest",
-    "lemonpi-soft-landing-helper": "latest"
+    "lemonpi-scraper-helper": "^1.0.4",
+    "lemonpi-soft-landing-helper": "^1.0.1",
+    "serialize-javascript": "^5.0.0"
   }
 }
